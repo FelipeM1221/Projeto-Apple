@@ -1,7 +1,7 @@
-[Título]
+	[Título]
 	
 	História da Apple: a marca da maçã mais famosa do mundo
-	A tecnologia mais recente sempre está presente nos produtos da marca. A história da Apple dá show de inovação 		durante toda a trajetória da empresa.
+	A tecnologia mais recente sempre está presente nos produtos da marca. A história da Apple dá show de inovação 			durante toda a trajetória da empresa.
 	
 [Título]
 
