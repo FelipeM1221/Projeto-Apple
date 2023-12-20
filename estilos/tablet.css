@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+span.material-symbols-outlined{
+    display: none;
+}
+
+div#navegaçao2{
+    display: block;
+    margin-top: 20px;
+}
+
+div#navegaçao2 > nav > ul > li{
+    display: inline;
+}
+
+div#navegaçao2 > nav > ul > li > a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-decoration: none;
+    padding: 10px;
+
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+div#navegaçao2 > nav > ul > li > a:hover{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.74);
+}
+
+div#tudo > main > article#fundaçao > div#image{
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+div#tudo > main > article#logo > h2{
+    clear: both;
+}
+
+ div#tudo > main > div#frame{
+    min-width: 560px;
+    min-height: 315px;
+
+}
+
+div#tudo > main > div#frame > iframe{
+    min-width: 560px;
+    min-height: 315px;
+}
+
+div#tudo > main > div#content_more{
+    max-width: 700px;
+    margin: auto;
+} 
+
+div#tudo > main > div#content_more > aside > ul li{
+    line-height: 2em;
+}

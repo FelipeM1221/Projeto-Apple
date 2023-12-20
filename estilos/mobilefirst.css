@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+:root{
+    --cor1: #c3002f;
+    --cor2: #1b1b1d;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fontes/RubikLines-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Bebas-Neue';
+    src: url(../fontes/BebasNeue-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+div#tudo > header{
+    width: 100%;
+
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+}
+
+div#tudo > header > hgroup{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+div#tudo > header > hgroup > h1{
+    font-family: 'Rubik';
+    font-weight: 100;
+    font-size: 2.2em;
+}
+
+div#tudo > header > hgroup > p{
+    padding: 10px;
+    font-family: 'Bebas-Neue';
+    font-size: 1.2em;
+}
+
+div#navegaçao{
+    display: none;
+    position: absolute;
+    padding: 10px 10px 10px 0px;
+    height: 110px;
+
+    background-color: var(--cor2);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    line-height: 1.9em;
+}
+
+div#navegaçao2{
+    display: none;
+}
+
+span.material-symbols-outlined{
+    float: left ;
+}
+
+span.material-symbols-outlined:hover{
+    cursor: pointer;
+}
+
+div#tudo > header > div#navegaçao > nav > ul{
+    list-style: none;
+}
+
+div#tudo > header > div#navegaçao > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+div#tudo > header > div#navegaçao > nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+div#tudo > main{
+    padding: 10px;
+    background-color: var(--cor2);
+    line-height: 2.2em;
+}
+
+div#tudo > main > article h2{
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: var(--cor1);
+}
+
+div#tudo > main > article  p{
+    color: white;
+    text-indent: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+div#tudo > main > article#fundaçao > div#image{
+    display: block;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+
+div#tudo > main > article#fundaçao > div#image > img{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+div#tudo > main > article#logo > div#image2{
+    display: block;
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+    text-align: center;
+}
+
+div#tudo > main > article#logo > div#image2 > img{
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+
+div#tudo > main > article#logo > ul{
+    color: white;
+    list-style: inside;
+}
+
+div#tudo > main > div#frame{
+    position: relative;
+    max-width: 352px;
+    height: 195px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+div#tudo > main > div#frame > iframe{
+    position: absolute;
+    width: 100%;
+    height: 195px;
+}
+
+div#tudo > main > div#content_more{
+    width: 100%;
+
+    background-color: #c3002ec0;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+div#tudo > main > div#content_more > aside{
+    padding: 10px;
+}
+
+div#tudo > main > div#content_more > aside > h3{
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+div#tudo > main > div#content_more > aside > ul{
+    list-style: inside;
+}
+
+div#tudo > main > div#content_more > aside > ul > li{
+    color: white;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color:  #1b1b1d;
+}
+
+footer > p{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

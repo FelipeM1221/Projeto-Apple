@@ -7,20 +7,22 @@
 
     <link rel="shortcut icon" href="imagens/logotipo-da-apple.png" type="image/x-icon">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="estilos/mobilefirst.css" media="screen">
     <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
     <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
-    <link rel="stylesheet" href="estilos/large.css" media="scren and (min-width: 1200px)">
+    <link rel="stylesheet" href="estilos/large.css" media="screen and (min-width: 1200px)">
 </head>
 <body>
     <div id="tudo">
         <header id="topo_header">
-            <hgroup>
-                <h1>História da Apple: A marca da marçã mais famosa do mundo</h1>
-                <p>Um show de inovação em toda a sua trajetória!</p>   
-            </hgroup>
 
-            <div>
+            <span class="material-symbols-outlined" onclick="clicar()">
+                menu
+            </span><br><br>
+
+            <div id="navegaçao">
                 <nav>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -30,15 +32,38 @@
                     </ul>
                 </nav>
             </div>
+
+            <hgroup>
+                <h1>História da Apple: A marca da marçã mais famosa do mundo</h1>
+                <p>Um show de inovação em toda a sua trajetória!</p>   
+            </hgroup>
+
+            <div id="navegaçao2">
+                <nav>
+                    <ul>
+                        <li><a  href="#" id="last">Home</a></li>
+                        <li><a href="#">Notícias</a></li>
+                        <li><a href="#">Curiosidades</a></li>
+                        <li><a href="#" id="first">Fale Conosco</a></li>
+                    </ul>
+                </nav>
+            </div>
+
         </header>
 
         <main id="principal">
-            <h2>História da Apple</h2>
 
             <article id="fundaçao">
-                <p>Um trio de amigos reunido em uma garagem, mesmo sem saber, estava iniciando algo que revolucionaria a tecnologia. Steve Jobs, Steve Wozniack e Ronald Wayne começaram a produzir computadores em miniaturas e assim surgiu a Apple no dia primeiro de Abril de 1976, em Cupertino, no Vale do Silício que exitia na Califórnia.</p>
+
+                <h2>História da Apple</h2>
+
+                <p id="teste">Um trio de amigos reunido em uma garagem, mesmo sem saber, estava iniciando algo que revolucionaria a tecnologia. Steve Jobs, Steve Wozniack e Ronald Wayne começaram a produzir computadores em miniaturas e assim surgiu a Apple no dia primeiro de Abril de 1976, em Cupertino, no Vale do Silício que exitia na Califórnia.</p>
 
                 <p>O primeiro computador colocado no mercado foi o Apple I, feito por Wozniack. A empresa só decolou na verdade, em 1977, quando o Apple II foi apresentado em uma feira de informática. Em 1980, quando lançaram o Apple II, a empresa começou a explorar o mercado internacional. Em sequência, nessa mesma década estavam passando por uma grande crise, quando Wozniack sofreu um acidente aéreo e Steve Jobs assumiu como CEO.</p>
+
+                <p>Em 1980, quando lançaram o Apple II, a empresa começou a explorar o mercado internacional. Em sequência, nessa mesma década estavam passando por uma grande crise, quando Wozniack sofreu um acidente aéreo e Steve Jobs assumiu como CEO.</p>
+
+                <p>Nesse meio tempo, Steve saiu da empresa e voltou somente em 1996 quando a Apple estava à beira da falência. A partir daí começaram a ser lançados produtos e programas que revolucionaram a situação e criaram a oportunidade da marca ser a potência atual.</p>
 
                 <div id="image">
                     <img src="imagens/Apple 1.png" alt="Primerio computador da Apple">
@@ -53,6 +78,8 @@
                 <h2>Logotipo</h2>
 
                 <p>O primeiro logotipo da Apple mostrava Isaac Newton embaixo de uma macieira. Ele foi desenhado por Ron Wayne, o terceiro fundador da empresa. Porém, foi usado por pouco tempo, pois seria mais complicado reproduzi-lo.</p>
+
+                <p>O novo desenho do logotipo foi feito por Rob Janoff, em 1976. Primeiramente seu estilo era uma maçã com uma mordida nas cores do arco-íris. Só em 1998 ele se tornou monocromático e preta.</p>
 
                 <div id="image2">
                     <img src="imagens/Logo_Newton(2).png" alt="Primeira logo da Apple">
@@ -79,7 +106,7 @@
                 </p>
             </article>
 
-            <div id="iframe">
+            <div id="frame">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/qQxmDq3mvhU?si=jqo2kcaPsStSDRF3&amp;start=12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
 
@@ -107,5 +134,7 @@
             <p>&copy; FelipeM</p>
         </footer>
     </div>
+    
+    <script src="JavaScript/index.js"></script>
 </body>
 </html>
